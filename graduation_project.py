@@ -155,12 +155,20 @@ def logo():
     print(bcolors.WARNING)
     logo_ascii = """
                                   __         __
-                                 /__)_  """ + bcolors.BADFAIL + " ●" + bcolors.WARNING + """_/(  _ _
-                                / ( (//)/(/__)( (//)
-                                     /
-                     """ + bcolors.ENDC + """(The Multi-Tool Web Vulnerability Scanner)
-
-                     Check out our new software, """ + bcolors.BG_LOW_TXT + """NetBot""" + bcolors.ENDC + """ for simulating DDoS attacks - https://github.com/skavngr/netbot
+                                 /__)_  """ + bcolors.BADFAIL + """_/( 
+                          .___            __  .__               
+   ________________     __| _/_ _______ _/  |_|__| ____   ____  
+  / ___\_  __ \__  \   / __ |  |  \__  \\   __\  |/  _ \ /    \ 
+ / /_/  >  | \// __ \_/ /_/ |  |  // __ \|  | |  (  <_> )   |  \
+ \___  /|__|  (____  /\____ |____/(____  /__| |__|\____/|___|  /
+/_____/            \/      \/          \/                    \/ 
+                        __               __   
+_____________  ____    |__| ____   _____/  |_ 
+\____ \_  __ \/  _ \   |  |/ __ \_/ ___\   __\
+|  |_> >  | \(  <_> )  |  \  ___/\  \___|  |  
+|   __/|__|   \____/\__|  |\___  >\___  >__|  
+|__|               \______|    \/     \/      
+                     """ + bcolors.ENDC + """(OUR GRADUATION PROJECT)
     """
     print(logo_ascii)
     print(bcolors.ENDC)
